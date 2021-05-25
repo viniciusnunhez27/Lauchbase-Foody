@@ -1,5 +1,6 @@
  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
- 
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 
 * { 
  margin: 0;
@@ -27,6 +28,7 @@ header img {
 }
 
 .container {
+    
     margin-left: 231px;
     margin-top: 34.1px;
     width: 940px;
@@ -37,8 +39,50 @@ header img {
 
 }
 
-.container h1 { 
-   padding: 32px;
+.text-receitas { 
+  padding: 117px 60px;
+  font-family: 'Roboto-Bold', sans-serif;
+  opacity: 100%;
+  color: #111111;
+  font-weight: bold;
+  line-height: 38px;
+  font-size: 32px;
+}
+
+.text-informativo { 
+ margin-top: -110px;
+ opacity: 0.7;
+ font-family: Roboto-Regular;
+ font-size: 18px;
+ color: #000000;
+ line-height: 28px;
 
 
+}
+
+.mais-acessadas { 
+    margin-left: 231px;
+    margin-top: 34.1px;
+    color: #111111;
+    font-family: 'Roboto-Bold', sans-serif;
+    height: 28px;
+    opacity: 100%;
+    padding: 20px 0;
+    
+
+}
+
+.cards { 
+    padding: 0px 230px;
+   
+}
+
+
+.card_image-container { 
+   width: 100%;
+   
+}
+
+.card_content,.card_info { 
+    padding: 10px;
 }
