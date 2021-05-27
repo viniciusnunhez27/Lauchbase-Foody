@@ -1,4 +1,4 @@
 # Lauchbase-Foody
 
 
-# em construção
+# Atualizando projeto.
