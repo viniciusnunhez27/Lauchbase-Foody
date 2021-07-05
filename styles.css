@@ -1,102 +1,51 @@
- @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
- 
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
 
+  box-sizing: border-box;
 
-
-* { 
- margin: 0;
- padding: 0;
- border: 0;
-
-}
-
-
-body { 
-   max-width:100%;
-   max-height:100%;
-
+  text-decoration: none;
+  list-style-type: none;
 
 }
 
 
-header img {
-    margin-left: 231px;
-    margin-top: 34.1px;
-}
 
-.links{ 
-   text-align:center;
-   margin-top: -28px;
-   margin-left: -444px;
-   text-decoration: none;
-   size: 16px;
-   color: #111111;
-   font-family: 'Roboto', sans-serif;
-   line-height: 20px;
-  
-
-}
-
-.container {
-    
-    margin-left: 231px;
-    margin-top: 34.1px;
-    width: 940px;
-    height: 366px;
-    background-color: #FBDFDB;
-    opacity: 100%;
-    border-radius: 30px;
-
-}
-
-.text-receitas { 
-  padding: 117px 60px;
-  font-family: 'Roboto-Bold', sans-serif;
+header img ,.container-principal-background { 
+  margin: 0px 50px;
+  margin-left:231px;
+  margin-top: 39.1px;
+  height: 26.9px;
+  width: 90.6px;
   opacity: 100%;
-  color: #111111;
-  font-weight: bold;
-  line-height: 38px;
-  font-size: 32px;
 }
 
-.text-informativo { 
- margin-top: -110px;
- opacity: 0.7;
- font-family: Roboto-Regular;
- font-size: 18px;
- color: #000000;
- line-height: 28px;
-
-
+header a  { 
+  margin: 0px 72px;
+  margin-left: 15px;
 }
 
-.mais-acessadas { 
-    margin-left: 231px;
-    margin-top: 34.1px;
-    color: #111111;
-    font-family: 'Roboto-Bold', sans-serif;
-    height: 28px;
-    opacity: 100%;
-    padding: 20px 0;
-    
+.container-principal-background{ 
+  width: 940px;
+  height: 366px;
+  background-color:#FBDFDB;
+  border-radius:30px;
 
 }
+.container-principal-background h1{
+   padding-left: 60px;
+   padding-top: 117px ;
+}
 
-.cards {
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   gap:20px;
- 
+.container-principal-background p { 
+   padding-left: 60px;
+padding-top: 10px;
+}
+
+.container-img{ 
+  margin: -174px 640px
 }
 
 
-.card_image-container img {
-    width: 300px;
-    height: 140px;
-    border-radius: 15px;
-    
-}
 
-
-   
