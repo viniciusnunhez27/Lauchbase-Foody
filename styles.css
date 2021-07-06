@@ -12,7 +12,7 @@
 
 
 
-header img ,.container-principal-background { 
+header img ,.container-principal-background{
   margin: 0px 50px;
   margin-left:231px;
   margin-top: 39.1px;
@@ -40,12 +40,20 @@ header a  {
 
 .container-principal-background p { 
    padding-left: 60px;
-padding-top: 10px;
+   padding-top: 10px;
 }
 
 .container-img{ 
   margin: -174px 640px
 }
+
+.receitas p { 
+  margin: 0px 50px;
+  margin-left:231px;
+  padding-top: 10px;
+
+}
+
 
 
 
