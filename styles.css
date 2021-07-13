@@ -1,15 +1,15 @@
+
 * {
   margin: 0;
   padding: 0;
   border: none;
+  
 
   box-sizing: border-box;
-
   text-decoration: none;
   list-style-type: none;
 
 }
-
 
 
 header img ,.container-principal-background{
@@ -50,10 +50,46 @@ header a  {
 .receitas p { 
   margin: 0px 50px;
   margin-left:231px;
-  padding-top: 10px;
+  padding-top: 50px;
+  font-size: 24px;
+  font-family: "Roboto-Bold",sans-serif;
+  color: #111111;
+
+}
+
+.cards { 
+  max-width:940px;
+  margin:0px 50px;
+  margin-left:231px ;
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.image-container img { 
+  width: 300px;
+  height: 140px;
+  border-radius: 15px;
+   
+
+}
+
+.content-img p { 
+   margin-top: 20px;
+
+}
+
+.card-chef p{ 
+  margin-top: 5px;
 
 }
 
 
+
+
+
+
+   
 
 
