@@ -15,7 +15,6 @@
 
 }
 
-
 header img ,.container-principal-background{
   margin: 0px 50px;
   margin-left:231px;
@@ -23,13 +22,19 @@ header img ,.container-principal-background{
   height: 26.9px;
   width: 90.6px;
   opacity: 100%;
+
 }
+
 
 header a  { 
   margin: 0px 72px;
   margin-left: 15px;
-}
+  font-family: "Roboto-Bold",sans-serif;
+  color: #111111;
+  font-size: 16px;
+ }
 
+  
 .container-principal-background{ 
   width: 940px;
   height: 366px;
@@ -40,15 +45,23 @@ header a  {
 .container-principal-background h1{
    padding-left: 60px;
    padding-top: 117px ;
+   font-family: "Roboto-Bold",sans-serif;
+   font-size: 32px;
+   opacity: 100%;
+   color: #FF111111;
 }
 
 .container-principal-background p { 
    padding-left: 60px;
    padding-top: 10px;
+   font-family: "Roboto-Bold",sans-serif;
+   font-size: 18px;
+   opacity: 100%;
+   color:#FF000000 ;
 }
 
 .container-img{ 
-  margin: -174px 640px
+  margin: -150px 640px
 }
 
 .receitas p { 
@@ -81,11 +94,20 @@ header a  {
 
 .content-img p { 
    margin-top: 20px;
+   font-family: "Roboto-regular",sans-serif;
+   font-size: 18px;
+   color: #111111;
+   opacity: 100%;
 
-}
+ }
+   
 
 .card-chef p{ 
   margin-top: 5px;
+  font-family: "Roboto-regular",sans-serif;
+  font-size: 14px;
+  color: #777777;
+  opacity: 100%;
 
 }
 
@@ -96,7 +118,6 @@ header a  {
   font-size: 24px;
   line-height: 28px;
   font-family: 'Roboto', sans-serif;
-
 }
 
 
@@ -142,7 +163,6 @@ line-height: 28px;
 
 }
 
-
 .receita-txt p  { 
 
 width: 940px;
@@ -154,21 +174,12 @@ font-family: 'Roboto-Regular';
 font-size: 18px;
 color: #444444;
 line-height: 28px;
-
 }
 
-.cor-fundo-bg { 
-  width: 62px;
-  height: 1400px;
-  background-color:#EEEEEE 100%;
+ .rodape p { 
+  padding-top: 73px;  
+  background: #EEEEEE 100%;
+  text-align: center;
+  height: 62px;
 }
-
-
-
-
-
-
-
-   
-
 
