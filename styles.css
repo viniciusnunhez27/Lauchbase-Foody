@@ -35,7 +35,7 @@ header a  {
  }
 
   
-.container-principal-background{ 
+.container-principal-background { 
   width: 940px;
   height: 366px;
   background-color:#FBDFDB;
@@ -48,7 +48,7 @@ header a  {
    font-family: "Roboto-Bold",sans-serif;
    font-size: 32px;
    opacity: 100%;
-   color: #FF111111;
+
 }
 
 .container-principal-background p { 
@@ -57,7 +57,7 @@ header a  {
    font-family: "Roboto-Bold",sans-serif;
    font-size: 18px;
    opacity: 100%;
-   color:#FF000000 ;
+  
 }
 
 .container-img{ 
@@ -118,6 +118,7 @@ header a  {
   font-size: 24px;
   line-height: 28px;
   font-family: 'Roboto', sans-serif;
+  color: #111111 100%;
 }
 
 
@@ -127,28 +128,29 @@ header a  {
   height: 280px;
   padding-left: 231px;
   padding-top: 20px;
-  font-family: 'Roboto-regular', sans-serif;
+  font-family: "Roboto-regular", sans-serif;
   line-height: 28px;
   font-size: 18px;
   opacity: 100%;
+  color: #111111 100%;
 
 }
 
 .inicio-titulo p { 
   padding-left: 231px;
   padding-top: 30px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto-Bold";
   font-size: 20px;
-  line-height: 24px;
   color: #111111;
 
 }
 
 .inicio-txt p { 
-font-family: Roboto-Regular;
+font-family: "Roboto-Regular";
 font-size: 18px;
-color: #444444;
+color: #111111; 
 line-height: 28px;
+
 
 
 }
