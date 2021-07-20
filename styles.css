@@ -121,12 +121,17 @@ header a  {
 
 }
 
+/*=== MODAL === */
+
 .modal-overlay { 
   background-color:rgba(0,0,0,0.7) ;
   width: 100%;
   height: 100%;
   position: fixed;
   top: 0px;
+  opacity: 0;
+  visibility: visible;
+  
 
 }
 
@@ -145,6 +150,14 @@ header a  {
   right: 8px;
   top: 8px;
   cursor:pointer;
+
+}
+
+/*=== MODAL ACTIVE=== */
+
+.modal-overlay.active { 
+   opacity: 1;
+   visibility: visible;
 
 }
 
