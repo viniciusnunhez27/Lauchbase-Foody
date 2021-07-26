@@ -121,45 +121,6 @@ header a  {
 
 }
 
-/*=== MODAL === */
-
-.modal-overlay { 
-  background-color:rgba(0,0,0,0.7) ;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0px;
-  opacity: 0;
-  visibility: visible;
-  
-
-}
-
-.modal {
-   background-color: white;
-   width: 90%;
-   height: 90%;
-   margin: 5vh auto;
-   position: relative;
-
-}
-
-.modal .close-modal { 
-  color: black;
-  position: absolute;
-  right: 8px;
-  top: 8px;
-  cursor:pointer;
-
-}
-
-/*=== MODAL ACTIVE=== */
-
-.modal-overlay.active { 
-   opacity: 1;
-   visibility: visible;
-
-}
 
 /*=== AQUI TERMINA A PAGINA INDEX === */
 
@@ -234,3 +195,42 @@ line-height: 28px;
 /*=== AQUI TERMINA O SOBRE SOBRE === */
 
 
+/*=== MODAL === */
+
+.modal-overlay { 
+  background-color:rgba(0,0,0,0.7) ;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  opacity: 0;
+  visibility: hidden;
+  
+
+}
+
+.modal {
+   background-color: white;
+   width: 50%;
+   height: 50%;
+   margin: 5vh auto;
+   position: relative;
+
+}
+
+.modal .close-modal { 
+  color: black;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  cursor:pointer;
+
+}
+
+/*=== MODAL ACTIVE=== */
+
+.modal-overlay.active { 
+   opacity: 1;
+   visibility: visible;
+
+}
