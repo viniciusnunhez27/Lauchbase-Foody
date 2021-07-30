@@ -15,8 +15,9 @@ html {
 header {
   align-items: center;
   display: flex;
-  max-width: 940px;
   margin: 30px auto;
+  max-width: 940px;
+  
 }
 header img {
   margin: 0 120px 0 0;
@@ -25,8 +26,8 @@ header a {
   margin-right: 30px;
   font-size: 1em;
   line-height: 19px;
-  text-decoration: none;
   color: #111111;
+  text-decoration: none;
 }
 .main-content {
   display: flex;
@@ -43,18 +44,19 @@ header a {
 }
 .main-text h1 {
   font-size: 32px;
+  color: #111111;
   line-height: 38px;
   font-weight: bold;
-  color: #111111;
   margin-left: 60px;
   margin-bottom: 10px;
 }
 .main-text p {
-  color: #000000;
-  opacity: 70%;
   font-size: 18px;
   line-height: 28px;
   margin-left: 60px;
+  color: #000000;
+  opacity: 70%;
+ 
 }
 .illustration-img {
   flex: 1;
@@ -88,20 +90,21 @@ header a {
 }
 .recipe-content p {
   font-size: 14px;
-  line-height: 18px;
   color: #777777;
+  line-height: 18px;
   margin-top: 5px;
 }
 
 footer {
-  margin-top: 50px;
-  background: #eeeeee;
-  bottom: 0;
   width: 100%;
   height: 62px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 50px;
+  background: #eeeeee;
+  bottom: 0;
+  
 }
 footer small {
   color: #999999;
