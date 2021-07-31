@@ -64,31 +64,31 @@ header a {
   text-align: right;
 }
 
-.recipes-box {
+.cards {
   max-width: 940px;
   margin: 0 auto;
 }
-.recipes-box h2 {
+.card-box h2 {
   margin: 50px 0 20px;
 }
-.recipes {
+.card {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 2;
   gap: 20px;
 }
-.recipe-content img {
+.card-content img {
   max-width: 300px;
   height: 140px;
-  border-radius: 15px;
+  border-radius:15px;
 }
-.recipe-content h3 {
+.card-content h3 {
   color: #111111;
   font-size: 18px;
   line-height: 21px;
   margin-top: 20px;
 }
-.recipe-content p {
+.card-content p {
   font-size: 14px;
   color: #777777;
   line-height: 18px;
@@ -111,7 +111,7 @@ footer small {
   font-size: 14px;
   line-height: 16px;
 }
-/*====Modal-overlay=====*/
+/*==== Inicio Modal-overlay=====*/
 .modal-overlay {
   width: 100%;
   height: 100%;
@@ -148,13 +148,13 @@ footer small {
   height: 90%;
   position: absolute;
 }
-.modal-recipe img {
+.modal-card img {
   width: 600px;
   max-height: 200px;
   border-radius: 15px;
   margin: 10px 30px;
 }
-.modal-recipe h3 {
+.modal-card h3 {
   font-size: 24px;
   line-height: 28px;
   font-weight: 400;
@@ -162,7 +162,7 @@ footer small {
   text-align: center;
   margin-bottom: 5px;
 }
-.modal-recipe p {
+.modal-card p {
   font-size: 18px;
   line-height: 21px;
   color: #777777;
@@ -173,17 +173,17 @@ footer small {
   visibility: visible;
 }
 
-/*====Page-about=====*/
-.main-about {
+/*====Página Sobre=====*/
+.main-sobre {
   max-width: 940px;
   margin: 0 auto;
 }
-.main-about h1,
+.main-sobre h1,
 h2 {
   margin: 30px 0 20px;
 }
 
-.main-about p {
+.main-sobre p {
   color: #444444;
   font-size: 18px;
   line-height: 28px;
